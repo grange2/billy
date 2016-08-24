@@ -11,8 +11,8 @@ public class CalculatorActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculator);
 
-        Button btn1 = (Button)findViewById(R.id.btn1);
+        Button btn11 = (Button)findViewById(R.id.btn1);
 
-        btn1.setText(R.string.ce);
+        btn11.setText(R.string.ce);
     }
 }
