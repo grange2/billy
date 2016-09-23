@@ -20,4 +20,10 @@ public class HelloTest {
     {
         assertThat("Error", is("Error"));
     }
+
+    @Test
+    public void dummy3()
+    {
+        assertThat("Error", is("Error"));
+    }
 }
