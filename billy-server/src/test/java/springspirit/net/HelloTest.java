@@ -11,8 +11,13 @@ import static org.hamcrest.MatcherAssert.assertThat;
  */
 public class HelloTest {
     @Test
-
     public void dummy() {
         assertThat("OK", is("OK"));
+    }
+
+    @Test
+    public void dummy2()
+    {
+        assertThat("Error", is("Error"));
     }
 }
